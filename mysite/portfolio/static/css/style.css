@@ -1,0 +1,151 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  position:relative;
+  height:200px;
+  font-family:times new roman;
+}
+
+.nav {
+  margin:0px;
+}
+
+.navbar{
+  background:transparent;
+  /*background-color:transparent;*/
+  border-color:transparent;
+  margin-bottom:0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  color: white;
+}
+
+.navbar-brand {
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url("work.jpg");
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header .intro-text .intro-heading {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+@media(min-width:768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+  }
+}
+
+.navbar.trans {
+  /*background:transparent !important;*/
+  background-color: #5D1314;
+}
+
+.pic{
+  background-image: url(/static/assets/pexels-photo-r20.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-attachment: scroll;
+
+  height: 680px;
+}
+
+.socialIcon{
+padding-left: 15px;
+}
+
+.header2{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 200px;
+  color:white;
+}
+
+
+#row2{
+  margin-top: 20px;
+  padding-top: 70px;
+}
+
+
+.meText{
+font-family:'Montserrat', sans-serif;
+font-size: 20px;
+text-align: justify;
+}
+
+#myPic{
+  border-radius: 100px;
+  width: 500px;
+}
+
+.textSide{
+  font-family:'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.textWork{
+  font-family:'Montserrat', sans-serif;
+  font-size: 5px;
+  text-align: center;
+}
+
+#row3{
+  padding-top: 30px;
+}
+.me{
+  padding-top: 20px;
+
+}
+#header{
+  margin-left: 30px;
+  text-align: center;
+}
+#header3{
+  text-align: center;
+  /*color: white;*/
+}
+.form-color{
+  background-color: white;
+}
+
+.jr{
+  width: 300px;
+  height: 300px;
+  padding-right: 60px;
+}
